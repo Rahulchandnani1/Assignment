@@ -19,7 +19,7 @@ By using
 By
    npm install --save express
 
-Then we start code part first (index.js)we import express and bodyparser which allow us to take request bodies.Then we describe port and listen function to receive incoming request.
+Then we start code part first (index.js).Then we describe port and listen function to receive incoming request.
 Every time we do some changes we have to stop the server.So to solve the problem we use nodemon
 we install nodemon by 
     npm install --savedev nodemon
@@ -27,11 +27,11 @@ then we can se the changes in package.json file
 Then we start the server by
    npm start
    
-#Then we made five different routes  Get find all users
+#Then we made five different routes  
 post to create a user
 get to get particular details like i have given data which is for product
 delete to delete particular product
-patch here i have used it for  update user.
+patch 
 
 Then I used Postman and try routes
 
